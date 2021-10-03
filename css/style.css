@@ -1,0 +1,313 @@
+/* ! Подключение шрифтов */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@font-face {
+   font-family: "Helvetica Neue";
+   src: url("../fonts/HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+      url("../fonts/HelveticaNeue-CondensedBlack.woff") format("woff");
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Helvetica Neue";
+   src: url("../fonts/HelveticaNeue.woff2") format("woff2"), url("../fonts/HelveticaNeue.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   height: 100%;
+}
+html {
+   font-size: 16px; /* по умолчанию */
+}
+body {
+   line-height: 1;
+   font-family: "Helvetica Neue", sans-serif;
+   font-weight: 400;
+   height: 100%;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   padding: 10px 0px 0px 0px;
+}
+
+.cont {
+   max-width: 1105px;
+   margin: 0 auto;
+   padding: 10px;
+}
+
+/* !----------------------------helthfood------------------------ **/
+.helthfood {
+   color: #85878c;
+   margin-bottom: 100px;
+}
+.helthfood .title {
+   color: #fff;
+}
+.helthfood h2,
+.Cutspace h2 {
+   font-size: 40px;
+   font-weight: 900;
+   text-shadow: 0px 0px 10px hotpink;
+   text-decoration: underline;
+   margin-bottom: 40px;
+}
+
+.bobo {
+   /* border-top: 10px solid indigo; */
+   height: 5px;
+   width: 150px;
+   /* background: hotpink; */
+   border-radius: 130px;
+   border-bottom: 10px solid indigo;
+   margin-top: -38px;
+   margin-bottom: 30px;
+}
+
+/* *+++++++++part1+++++++++++ */
+
+.helthfood .part1 {
+   max-width: 350px;
+   background: #000;
+   margin-bottom: 20px;
+}
+
+.helthfood .part1 .podpa {
+   padding: 20px;
+}
+
+.helthfood .iia div {
+   width: 46%;
+   display: inline-block;
+}
+
+.imi img {
+   width: 100%;
+}
+
+.helthfood .s {
+   text-align: right;
+}
+
+.helthfood .iia .s a {
+   display: inline-block;
+   padding: 14px 32px 0px;
+   min-height: 40px;
+   font-size: 10px;
+   border: 2px solid #85878c;
+   font-weight: 900;
+   color: inherit;
+   border-radius: 15px;
+   vertical-align: middle;
+}
+
+.fir img {
+   width: 100%;
+   margin-bottom: 15px;
+   min-height: 100%;
+   vertical-align: top;
+}
+
+.helthfood .title {
+   font-size: 32px;
+   color: #fff;
+   margin-bottom: 5px;
+}
+
+.helthfood .podtit {
+   font-size: 12px;
+   margin-bottom: 20px;
+}
+
+.helthfood .txt {
+   font-size: 13px;
+   line-height: 138%;
+   margin-bottom: 24px;
+}
+
+/* *+++++++++part2+++++++++++ */
+
+.part2 .part2_cont {
+   background: #252525;
+   max-width: 255px;
+   margin: 0px auto;
+   min-height: 206px;
+   padding: 24px;
+}
+
+.helthfood .part2 .title {
+   font-size: 22px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.helthfood .part2 div.title + div {
+   border: 2px solid green;
+   max-width: 56px;
+   margin-bottom: 24px;
+}
+
+/* !------------------Cutspace----------------------- */
+/* *+++++++++++++part1++++++++++++ */
+
+.Cutspace .part1__cont {
+   max-width: 400px;
+   font-family: "Poppins";
+   font-weight: 400;
+   padding: 15px;
+}
+
+.Cutspace .part1__cont > div:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.Cutspace .part1__cotn .title {
+   font-size: 42px;
+   line-height: 147%;
+}
+
+.Cutspace .part1__cont .txt {
+   font-size: 16px;
+   line-height: 168%;
+}
+
+.cont .Cutspace .part1__cont .txt2 {
+   margin-bottom: 40px;
+}
+
+a.a {
+   display: inline-block;
+   padding: 18px 32px;
+   background: #f78434;
+   border-radius: 29px;
+   color: #fff;
+   font-weight: 700;
+   transition: 0.3s;
+   border: 2px solid transparent;
+}
+
+a.a:hover {
+   background: #f7853427;
+   color: rgba(73, 73, 73, 0.61);
+   border: 2px solid rgba(73, 73, 73, 0.61);
+   transition: 0.3s;
+   padding: 18px 32px 12px;
+}
+
+/* *+++++++++++++part2++++++++++++ */
+
+.Cutspace .part2__cont {
+   max-width: 540px;
+   min-height: 365px;
+   padding: 68px 40px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.Cutspace .part2__cont .title {
+   font-size: 42px;
+   line-height: 150%;
+   font-weight: 700;
+}
+.Cutspace .part2__cont div {
+   margin-bottom: 15px;
+}
+
+.tododo {
+   margin-bottom: 25px;
+   line-height: 168%;
+}
+
+a.aa {
+   display: inline-block;
+   padding: 18px 32px;
+   color: #f78434;
+   border-radius: 29px;
+   border: 2px solid #f78434;
+   transition: 0.3s;
+}
+
+a.aa:hover {
+   display: inline-block;
+   padding: 18px 32px;
+   background: #f78434;
+   border-radius: 29px;
+   border: 2px solid #fff;
+   color: #fff;
+}
+
+/* *++++++++++++++part3++++++++++++++++ */
+
+.part3__cont {
+   max-width: 350px;
+}
+
+.part3__cont .box {
+   padding: 30px;
+}
+
+.part3__cont .box div {
+   margin-bottom: 20px;
+}
+.part3__cont .box .title {
+   margin-bottom: 10px;
+}
+
+.city {
+   color: #58bebf;
+}
+
+.tododo {
+   padding: 5px 10px 5px 0px;
+}
+
+.Cutspace .part3__cont .title {
+   font-size: 18px;
+   font-weight: 900;
+}
+
+/* .Cutspace .part3 .part3__cont .img .img {
+   width: 100%;
+} */
+
+.Cutspace .part3 .part3__cont .img img {
+   width: 100%;
+}
